@@ -156,7 +156,7 @@ ENDIF()
 FIND_PACKAGE(QGLViewer)
 
 # shall we build the core apps using the library
-SET(G2O_BUILD_APPS ON CACHE BOOL "Build g2o apps")
+SET(G2O_BUILD_APPS OFF CACHE BOOL "Build g2o apps")
 IF(G2O_BUILD_APPS)
   MESSAGE(STATUS "Compiling g2o apps")
 ENDIF(G2O_BUILD_APPS)
@@ -166,7 +166,7 @@ CMAKE_DEPENDENT_OPTION(G2O_BUILD_LINKED_APPS "Build apps linked with the librari
   "G2O_BUILD_APPS" OFF)
 
 # shall we build the examples
-SET(G2O_BUILD_EXAMPLES ON CACHE BOOL "Build g2o examples")
+SET(G2O_BUILD_EXAMPLES OFF CACHE BOOL "Build g2o examples")
 IF(G2O_BUILD_EXAMPLES)
   MESSAGE(STATUS "Compiling g2o examples")
 ENDIF(G2O_BUILD_EXAMPLES)
