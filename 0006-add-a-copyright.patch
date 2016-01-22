@@ -1,10 +1,10 @@
-From a9ea9b914e233321c9905bfbc8816d3e2c14987b Mon Sep 17 00:00:00 2001
+From 933109a5234d9ebe576bfca4b7ee330afc5fdc7a Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Thu, 1 Nov 2012 14:03:24 -0700
-Subject: [PATCH 06/11] add a copyright
+Subject: [PATCH 06/14] add a copyright
 
 ---
- stack.xml |    1 +
+ stack.xml | 1 +
  1 file changed, 1 insertion(+)
 
 diff --git a/stack.xml b/stack.xml
@@ -20,5 +20,5 @@ index 48cbfcd..57a95d3 100644
    <build_depends>catkin</build_depends>
    <build_depends>cmake</build_depends>
 -- 
-1.7.10.4
+2.5.4 (Apple Git-61)
 

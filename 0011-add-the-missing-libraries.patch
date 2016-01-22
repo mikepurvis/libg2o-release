@@ -1,10 +1,10 @@
-From 73aff98c9419e81b03361b5c0a8c7f4a387c9ed2 Mon Sep 17 00:00:00 2001
+From 7359242a39dbe4f48d91a487ee72ebd759eb6061 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Thu, 8 Nov 2012 15:50:10 -0800
-Subject: [PATCH 11/11] add the missing libraries
+Subject: [PATCH 11/14] add the missing libraries
 
 ---
- CMakeLists.txt |   14 +++++++++-----
+ CMakeLists.txt | 14 +++++++++-----
  1 file changed, 9 insertions(+), 5 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
@@ -35,5 +35,5 @@ index 4405d44..489d225 100644
 +catkin_project(libg2o LIBRARIES ${FILES})
  endif()
 -- 
-1.7.10.4
+2.5.4 (Apple Git-61)
 

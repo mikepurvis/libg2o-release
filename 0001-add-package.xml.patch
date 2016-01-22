@@ -1,10 +1,10 @@
-From d8364344f6caaa136d58e3974e7282c781f42ad0 Mon Sep 17 00:00:00 2001
+From 58e8d196117c403dc92a035c466c707ecb9cb0a1 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Wed, 24 Oct 2012 13:28:35 -0700
-Subject: [PATCH 01/11] add package.xml
+Subject: [PATCH 01/14] add package.xml
 
 ---
- package.xml |   22 ++++++++++++++++++++++
+ package.xml | 22 ++++++++++++++++++++++
  1 file changed, 22 insertions(+)
  create mode 100644 package.xml
 
@@ -37,5 +37,5 @@ index 0000000..1d9495f
 +  <run_depend>suitesparse</run_depend>
 +</package>
 -- 
-1.7.10.4
+2.5.4 (Apple Git-61)
 

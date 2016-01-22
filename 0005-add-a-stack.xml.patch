@@ -1,10 +1,10 @@
-From f2828dbd677f7b32e7a802116e8c784051db0fd8 Mon Sep 17 00:00:00 2001
+From 4272e936a1b71a40716d6fd11cdcf7c1b50612fa Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Thu, 1 Nov 2012 14:02:51 -0700
-Subject: [PATCH 05/11] add a stack.xml
+Subject: [PATCH 05/14] add a stack.xml
 
 ---
- stack.xml |   23 +++++++++++++++++++++++
+ stack.xml | 23 +++++++++++++++++++++++
  1 file changed, 23 insertions(+)
  create mode 100644 stack.xml
 
@@ -38,5 +38,5 @@ index 0000000..48cbfcd
 +  <depends>suitesparse</depends>
 +</stack>
 -- 
-1.7.10.4
+2.5.4 (Apple Git-61)
 

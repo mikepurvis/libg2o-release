@@ -1,10 +1,10 @@
-From 01a4459459b8bfead040c6f5f6c9e4ccd08166ac Mon Sep 17 00:00:00 2001
+From 773c33d7e36079ad22f0a45dec914b5a0a129cac Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Sun, 28 Oct 2012 18:23:23 -0700
-Subject: [PATCH 04/11] fix the g2o call
+Subject: [PATCH 04/14] fix the g2o call
 
 ---
- CMakeLists.txt |    1 +
+ CMakeLists.txt | 1 +
  1 file changed, 1 insertion(+)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
@@ -19,5 +19,5 @@ index d306a48..99e2f6d 100644
  find_package(catkin)
  catkin_package()
 -- 
-1.7.10.4
+2.5.4 (Apple Git-61)
 

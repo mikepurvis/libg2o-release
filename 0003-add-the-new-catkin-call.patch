@@ -1,11 +1,11 @@
-From 5c9d531f8cc1a27010ca01ce997514062931b90c Mon Sep 17 00:00:00 2001
+From fee20760e1cc3c10d3adf9b7eff1d6ca11b7b8f4 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Fri, 26 Oct 2012 12:57:07 -0700
-Subject: [PATCH 03/11] add the new catkin call
+Subject: [PATCH 03/14] add the new catkin call
 
 ---
- CMakeLists.txt |    3 +++
- package.xml    |    1 +
+ CMakeLists.txt | 3 +++
+ package.xml    | 1 +
  2 files changed, 4 insertions(+)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
@@ -32,5 +32,5 @@ index 1cfb5b7..ec62713 100644
    <build_depend>eigen</build_depend>
    <build_depend>opengl</build_depend>
 -- 
-1.7.10.4
+2.5.4 (Apple Git-61)
 

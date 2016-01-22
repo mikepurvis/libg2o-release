@@ -1,10 +1,10 @@
-From 71fb70eee67bb17b4151d73078bf83f6dae0cea4 Mon Sep 17 00:00:00 2001
+From 2607ea71b708733f986805f35dbbaf627d5f2cc4 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Thu, 8 Nov 2012 11:15:20 -0800
-Subject: [PATCH 08/11] fix the CMake for Fuerte
+Subject: [PATCH 08/14] fix the CMake for Fuerte
 
 ---
- CMakeLists.txt |    5 +++++
+ CMakeLists.txt | 5 +++++
  1 file changed, 5 insertions(+)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
@@ -22,5 +22,5 @@ index 99e2f6d..c60c2a0 100644
 +catkin_project(libg2o)
 +endif()
 -- 
-1.7.10.4
+2.5.4 (Apple Git-61)
 

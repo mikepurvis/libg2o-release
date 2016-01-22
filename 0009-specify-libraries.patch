@@ -1,10 +1,10 @@
-From 54eacc6f38a71540210b55982253098d74a47674 Mon Sep 17 00:00:00 2001
+From 267a61256a04f0e0fa7ef9c5328dfac80f91d89b Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Thu, 8 Nov 2012 14:43:21 -0800
-Subject: [PATCH 09/11] specify libraries
+Subject: [PATCH 09/14] specify libraries
 
 ---
- CMakeLists.txt |    8 ++++++--
+ CMakeLists.txt | 8 ++++++--
  1 file changed, 6 insertions(+), 2 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
@@ -27,5 +27,5 @@ index c60c2a0..4405d44 100644
 +)
  endif()
 -- 
-1.7.10.4
+2.5.4 (Apple Git-61)
 
